@@ -9,6 +9,16 @@ I build production-grade web applications — from real-time multiplayer systems
 
 ---
 
+## About Me
+
+I'm a full-stack developer with a growing focus on **AI/ML** — particularly how intelligent systems can be embedded into real-world applications. My projects reflect this intersection: from implementing pathfinding algorithms with real-time visualization to integrating AI APIs for automated, personalized user experiences.
+
+I'm currently seeking **internship opportunities in the AI/ML space** where I can move beyond integrating existing APIs and contribute to building, training, and deploying models that solve meaningful problems. I keep up with developments in the field and I'm genuinely interested in the engineering side — how models are architected, optimized, and scaled in production.
+
+Open to collaborating on projects at the intersection of **software engineering and AI** — if you're building something in that space, let's talk.
+
+---
+
 ## What I've Built
 
 ### [AI Maze Solver 3D](https://github.com/deykris777/AI-Maze-Solver-3D)
