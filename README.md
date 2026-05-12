@@ -1,60 +1,50 @@
-# Krishna Kumar Dey
+# Krishna Kumar Dey — Architecting Intelligent Systems
 
-**Full-Stack Developer** · B.Tech CSE @ KIIT '27 · Open to SDE Internships
+Seeking AI/ML research internships and software engineering internships.
+Strong in full-stack engineering. Moving deeper into ML systems.
 
-I build production-grade web applications — from real-time multiplayer systems to AI-integrated platforms. My focus is on writing clean, modular code that scales.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/krishna-kumar-dey-8b1627263)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:krishnakumardey452@gmail.com)
-
----
-
-## About Me
-
-I'm a full-stack developer with a growing focus on **AI/ML** — particularly how intelligent systems can be embedded into real-world applications. My projects reflect this intersection: from implementing pathfinding algorithms with real-time visualization to integrating AI APIs for automated, personalized user experiences.
-
-I'm currently seeking **internship opportunities in the AI/ML space** where I can move beyond integrating existing APIs and contribute to building, training, and deploying models that solve meaningful problems. I keep up with developments in the field and I'm genuinely interested in the engineering side — how models are architected, optimized, and scaled in production.
-
-Open to collaborating on projects at the intersection of **software engineering and AI** — if you're building something in that space, let's talk.
+**B.Tech CSE @ KIIT, Bhubaneswar (Graduating 2027)**  
+[LinkedIn](https://linkedin.com/in/krishna-kumar-dey-8b1627263) · [Email](mailto:krishnakumardey452@gmail.com)
 
 ---
 
-## What I've Built
+## Projects
+
+### [ECG Anomaly Detection — LSTM Autoencoder](https://github.com/deykris777/ecg-anomaly-detection) `[WIP]`
+
+- PyTorch LSTM Autoencoder trained on the MIT-BIH Arrhythmia Database — unsupervised, trained only on normal heartbeats
+- Anomalies flagged via reconstruction error thresholding; follows AAMI EC57 patient-aware train/test split to prevent data leakage
+- Stack: Python · PyTorch · wfdb · NumPy · scikit-learn
 
 ### [AI Maze Solver 3D](https://github.com/deykris777/AI-Maze-Solver-3D)
-Procedural maze generator with real-time BFS, DFS & A* visualization — built on a 4-component decoupled architecture (maze engine, search algorithms, agent state machine, renderer). A* with Manhattan heuristic runs **40% faster** than uninformed search.
 
-> `Python` `Pygame` `Ursina 3D` `BFS` `DFS` `A*` `OOP`
+- Real-time BFS, DFS, and A* on procedurally generated mazes using a 4-component decoupled architecture
+- A* with Manhattan heuristic expands ~60% fewer nodes than BFS while maintaining optimal path length
+- Stack: Python · Pygame · Ursina 3D
 
-### [DrawBattle](https://github.com/deykris777)
-Real-time multiplayer drawing game supporting **10+ concurrent players** with sub-50ms WebSocket broadcast latency. Authoritative server-side state machine handles room lifecycle, turn logic, and score arbitration — zero client desync.
+### [FitMate](https://github.com/deykris777/fitmate)
 
-> `React` `Node.js` `Express` `Socket.io` `Event-Driven Architecture`
+- AI-powered fitness platform using Groq AI to generate personalized meal plans via server-side cron delivery
+- Multi-tenant data isolation enforced via Supabase Row Level Security (RLS) and JWTs
+- Stack: Next.js 15 · TypeScript · Supabase · PostgreSQL · Groq AI
 
-### [FitMate](https://github.com/deykris777)
-AI-powered fitness platform with multi-tenant data isolation across 3+ user roles via Supabase RLS + JWT. Groq AI generates personalized meal plans; server-side cron jobs automate daily delivery — **99% data consistency**, zero cross-user leakage.
+### [DrawBattle](https://github.com/deykris777/DrawBattle)
 
-> `Next.js 15` `TypeScript` `Supabase` `PostgreSQL` `Groq AI` `JWT` `RLS`
+- Real-time multiplayer drawing game — 10+ concurrent players, sub-50ms WebSocket broadcast latency
+- Authoritative server-side state machine handles room lifecycle, turn logic, and score arbitration
+- Stack: React · Node.js · Express · Socket.io
 
 ---
 
-## Tech
+## Technical Stack
 
 ```
-Languages    →  JavaScript (ES6+)  TypeScript  Python  Java  C  SQL
-Frontend     →  React  Next.js 15  Tailwind CSS  HTML5  CSS3
-Backend      →  Node.js  Express  REST APIs  Microservices  Socket.io
-Databases    →  MongoDB  PostgreSQL  Supabase
-DevOps       →  Docker  CI/CD  Git  Vercel  AWS (fundamentals)
-Testing      →  Jest  Postman
+ML/AI      | Python · PyTorch · NumPy · scikit-learn · LSTM · Autoencoders
+Algorithms | A* · BFS · DFS · Dynamic Programming · Graph Search
+Web        | React · Next.js 15 · Node.js · TypeScript · PostgreSQL · MongoDB
+Tools      | Git · Docker · Vercel
 ```
 
 ---
 
-## CS Fundamentals
-
-Solid grounding in **Data Structures & Algorithms**, **System Design**, **OOP**, **DBMS**, and **OS** — applied directly in project architecture, not just theory.
-
----
-
-*Bhubaneswar, India · krishnakumardey452@gmail.com*
+Open to **AI/ML research internships** and **software engineering internships** — [krishnakumardey452@gmail.com](mailto:krishnakumardey452@gmail.com)
